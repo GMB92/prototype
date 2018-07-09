@@ -1,0 +1,28 @@
+h1 {
+  color: rgb(37, 52, 148);
+  font-size: 24pt;
+  font-family: Cambria;
+  page-break-before: always;
+}
+.citation {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+#introsub {
+  font-family: Open Sans Light;
+  font-size:11pt;
+}
+.column {
+    column-count: 2;
+    float: left;
+    word-wrap: break-word
+}
+p span{
+  color: rgb(56, 108, 176);
+  font-family: calibri;
+  font-size:13pt;
+}
+p {
+  font-size: 10pt;
+}
