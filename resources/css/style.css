@@ -4,6 +4,9 @@ h1 {
   font-family: Cambria;
   page-break-before: always;
 }
+#methods{
+  page-break-before:avoid;
+}
 .citation {
   position: absolute;
   bottom: 0;
@@ -18,32 +21,32 @@ h1 {
 .toc_list p {font-size: 10px;}
 .toc_indent {margin-left: 20px;}
 
-
-
-
-
-
-
-
-/*footnote {
-  position:absolute;
-   bottom:0;
-   width:100%;
-   height:60px;    Height of the footer */
+ #tocpage {
+  text-align: right;
+}
 
 #introsub {
   font-family: Open Sans Light;
   font-size:11pt;
 }
 .column {
-    column-count: 2;
-    float: left;
-    word-wrap: break-word
+ padding:10px;
+ width:100%;
+ -moz-column-count: 2;
+ -moz-column-gap: 10px;
+ -webkit-column-count: 2;
+ -webkit-column-gap: 10px;
+ column-count: 2;
+ column-gap: 10px;
+ word-break: normal;
+ max-height: 100%;
+
 }
-p span{
+.introtitle {
   color: rgb(56, 108, 176);
   font-family: calibri;
   font-size:13pt;
+  text-align: justify;
 }
 p {
   font-size: 10pt;
