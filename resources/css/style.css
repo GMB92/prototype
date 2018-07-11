@@ -18,14 +18,9 @@ h1 {
 .toc_list p {font-size: 10px;}
 .toc_indent {margin-left: 20px;}
 
-a.xref:after {
-  content: " (page " target-counter(attr(href, url), page) ")";
-}
 
 
-ul.toc a::after {
-  content: leader('.') target-counter(attr(href), page);
-}
+
 
 
 
