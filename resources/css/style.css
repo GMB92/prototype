@@ -6,13 +6,19 @@
          page-break-before: avoid;
      }
 }
+body {
+  font-family: Open Sans Light;
+  font-size: 10pt;
+}
+/* All headers will have the same format*/
 h1 {
   color: rgb(37, 52, 148);
   font-size: 24pt;
   font-family: Cambria;
   page-break-before: always;
 }
-#methods{
+
+.nopagebreak{
   page-break-before:avoid;
 }
 
@@ -28,40 +34,35 @@ h1 {
 }
 .toc_title p {font-size:13px;}
 .toc_list p {font-size: 10px;}
-.toc_indent {margin-left: 20px;}
+.toc_indent p {margin-left: 20px;}
 
- #tocpage {
-  text-align: right;
-}
-
-#introsub {
-  font-family: Open Sans Light;
+.introduction .introdesc p {
   font-size:11pt;
 }
 
 .column {
- /*padding:10px;*/
  width:100%;
- -moz-column-count: 2;
- -moz-column-gap: 10px;
- -webkit-column-count: 2;
- -webkit-column-gap: 10px;
  column-count: 2;
- column-gap: 10px;
+ column-gap: 20px;
  word-break: normal;
  max-height: 90%;
- font-family: opn sans light;
+ font-family:Open Sans Light;
  font-size: 10pt;
  text-align: left;
-
 }
-.introtitle {
+
+
+.introtitle span{
   color: rgb(56, 108, 176);
   font-family: calibri;
   font-size:13pt;
-  text-align: justify;
 }
-.greenintrotitle{
+
+.introtitle {
+  padding-top: 10px;
+}
+
+.greenintrotitle {
   color:rgb(104,192,104);
   font-family: calibri;
   font-size: 11pt;
@@ -71,8 +72,10 @@ h1 {
   margin-left: 15px
 }
 .indentindicator {
-  margin-left:30px;
+  padding-left:30px;
+  padding-top: 10px;
 }
-p {
-  font-size: 10pt;
+.indentindicator2 {
+  padding-left: 20px;
+  padding-top: 10px;
 }
