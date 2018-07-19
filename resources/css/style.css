@@ -50,16 +50,14 @@ h1 {
  font-size: 10pt;
  text-align: left;
 }
+.methodtitle {
+  padding-top: 10px;
+}
 
-
-.introtitle span{
+.introtitle span, .methodtitle span{
   color: rgb(56, 108, 176);
   font-family: calibri;
   font-size:13pt;
-}
-
-.introtitle {
-  padding-top: 10px;
 }
 
 .greenintrotitle {
@@ -69,13 +67,24 @@ h1 {
   text-align: justify;
 }
 .indent{
-  margin-left: 15px
+  margin-left: 15px;
+  padding-top:10px;
 }
 .indentindicator {
   padding-left:30px;
-  padding-top: 10px;
+  padding-bottom: 10px;;
 }
+.indentindicator span {display:block; padding-top:10px;}
+
 .indentindicator2 {
   padding-left: 20px;
-  padding-top: 10px;
+}
+.indentindicator2 p {margin-bottom:0px;}
+
+.tableimage p {text-align: center; margin-bottom: auto; font-weight: bold;}
+
+#note1 {
+  font-weight: bold; font-size: 8pt;
+  margin-top: 0px;
+  font-family: Open Sans Semibold;}
 }
