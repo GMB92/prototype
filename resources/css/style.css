@@ -3,42 +3,39 @@
          border: 1px solid white;
          height: 99%;
          page-break-after: avoid;
-         page-break-before: avoid;
-     }
+         page-break-before: avoid; }
 }
 body {
   font-family: Open Sans Light;
-  font-size: 10pt;
-}
+  font-size: 10pt;}
 /* All headers will have the same format*/
 h1 {
   color: rgb(37, 52, 148);
   font-size: 24pt;
   font-family: Cambria;
-  page-break-before: always;
-}
+  page-break-before: always;}
+
+.interpretfigure1 {
+    page-break-before: always;}
 
 .nopagebreak{
-  page-break-before:avoid;
-}
+  page-break-before:avoid;}
 
 .citation {
   position: absolute;
   bottom: 0;
-  left: 0;
-}
+  left: 0;}
 
 .toc_title, .toc_list {
   list-style: none;
-  font-family: Open Sans Light;
-}
+  font-family: Open Sans Light;}
+
 .toc_title p {font-size:13px;}
 .toc_list p {font-size: 10px;}
 .toc_indent p {margin-left: 20px;}
 
 .introduction .introdesc p {
-  font-size:11pt;
-}
+  font-size:11pt;}
 
 .column {
  width:100%;
@@ -48,43 +45,48 @@ h1 {
  max-height: 90%;
  font-family:Open Sans Light;
  font-size: 10pt;
- text-align: left;
-}
+ text-align: left;}
+
 .methodtitle {
-  padding-top: 10px;
-}
+  padding-top: 10px;}
 
 .introtitle span, .methodtitle span{
   color: rgb(56, 108, 176);
   font-family: calibri;
-  font-size:13pt;
-}
+  font-size:13pt;}
 
 .greenintrotitle {
   color:rgb(104,192,104);
   font-family: calibri;
   font-size: 11pt;
-  text-align: justify;
-}
+  text-align: justify;}
+
 .indent{
   margin-left: 15px;
-  padding-top:10px;
-}
+  padding-top:10px;}
+
 .indentindicator {
   padding-left:30px;
-  padding-bottom: 10px;;
-}
+  padding-bottom: 10px;}
+
 .indentindicator span {display:block; padding-top:10px;}
 
 .indentindicator2 {
-  padding-left: 20px;
-}
+  padding-left: 20px;}
+
 .indentindicator2 p {margin-bottom:0px;}
 
 .tableimage p {text-align: center; margin-bottom: auto; font-weight: bold;}
 
+.tableimage img, #note1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;}
+
 #note1 {
-  font-weight: bold; font-size: 8pt;
+  font-size: 8pt;
   margin-top: 0px;
-  font-family: Open Sans Semibold;}
-}
+  font-family: Open Sans Semibold;
+  text-align:left;}
+
+#h2font {color:red;}
