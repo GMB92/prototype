@@ -78,15 +78,20 @@ h1 {
 
 .tableimage p {text-align: center; margin-bottom: auto; font-weight: bold;}
 
-.tableimage img, #note1 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;}
+ .tableimage img {
+   max-width: 100%;
+   max-height: 100%;
+   display: block;
+   margin: auto;
+ }
 
 #note1 {
   font-size: 8pt;
   margin-top: 0px;
   font-family: Open Sans Semibold;
-  text-align:left;}
+  text-align:left;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;}
 
 #h2font {color:red;}
