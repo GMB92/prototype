@@ -150,13 +150,13 @@ h1 {
   font-size: 13pt;
   font-weight: bold;
 }
-.col_population1, .col_population2, .col_wb1, .col_wb2 {width: 50%;}
+.col_population1, .col_population2, .col_wb1, .col_wb2, .col_mrud1, .col_mrud2  {width: 50%;}
 
 .col_population2, .col_wb2, .col_mrud2 {
   padding-left: 20px;
   z-index: 12;}
 
-.col_population2 { border-left: 2px dashed rgb(4,127,184);}
+.col_population2 { border-left: 2px dashed rgb(4,127,184); height: 900px;}
 
 .col_gender1 img { background-size: contain;}
 
@@ -165,7 +165,7 @@ h1 {
 padding-top:20px;
 font-size: 14pt; }
 
-.col_wb2 {border-left: 2px dashed rgb(190, 174, 212);}
+.col_wb2 {border-left: 2px dashed rgb(190, 174, 212); height: 1000px;}
 
 .col_wb1 p {padding-right: 20px;}
 
@@ -174,9 +174,10 @@ font-size: 14pt; }
 padding-top:20px;
 font-size: 14pt; }
 
-.col_mrud2 {border-left: 2px dashed rgb(127, 201, 127);}
+.col_mrud2 {border-left: 2px dashed rgb(127, 201, 127); height: 1000px;}
 
 .col_mrud1 p {padding-right: 20px;}
+
 
 /* Synthesis and REcommendations */
 .column .sr_context p {
