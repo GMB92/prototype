@@ -126,6 +126,7 @@ h1 {
   padding: 2.5px;
   padding-left: 10px;
 }
+/* blue, purple, green header */
 .results_header h3, .annex h3{background-color: rgb(44, 127, 184);}
 .results_header h2 {color: rgb(44, 127, 184);}
 .wbheader h3 { background-color: rgb(190, 174, 212);}
